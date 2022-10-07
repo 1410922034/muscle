@@ -21,11 +21,11 @@ ul {
 #nav li {
     display: inline;
     margin: 0;
-    color: #fff;
+    color: #ffffff;
 }
 
 a{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 a:hover{
@@ -49,8 +49,17 @@ header, #masthead{
     margin-top: 10px;
 }
 
+#hh{
+    margin-left: -40px;
+}
+
 #mainContent img{
     width: 100%;
+}
+
+#titleBar div{
+    text-align:center;
+    font-size: 1.5em;
 }
 
 #content{
@@ -61,12 +70,29 @@ header, #masthead{
 }
 
 #sidebar{
-    width: 360px;
+    width: 400px;
     margin: 20px 0px;
     padding: 10px;
     float: left;
 }
+
+#sidebar h2{
+    margin: 40px 45px;
+}
+
 #port li{
     float: left;
     border: 5px solid #ddd;
 }
+
+#port ul{
+    list-style-type: none;
+}
+
+footer{
+    clear: both; 
+    text-align:center;
+    background-color: #f5c2ee;
+    padding: 0% 1%;
+}
+
